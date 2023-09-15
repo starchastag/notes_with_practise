@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms and Input</title>
+  </head>
+  <body>
+    <header style="width: 100%; background-color: bisque">
+      <h1 style="text-align: center; color: black">Forms And Input</h1>
+      <p style="text-align: center">
+        learn about forms ,different types of form-element , labels and
+        different type of input ,other element like as selectors and textarea
+        ,datalist with input and finally a complete contact form in html.
+      </p>
+    </header>
+    <nav style="text-align: right; width: 100%; background-color: azure">
+      <a href="">Home</a>
+      <a href="">Blog</a>
+      <a href="">Contact</a>
+      <a href="">About</a>
+    </nav>
+    <section>
+      <form action="" method="GET" style="align-items: center; width: 100%; background-color: steelblue;">
+        <div>
+          <label for="name">Name</label>
+          <input type="text" placeholder="Enter your name" id="name"/>
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" placeholder="Enter your email" id="email">
+        </div>
+        <div>
+            <label for="dob">DOB</label>
+            <input type="date" id="dob">
+        </div>
+        <div>
+            <label for="month">mob</label>
+            <input type="month" id="month">
+        </div>
+        <div>
+            <label for="color">Faviroute Color</label>
+            <input type="color" id="color">
+        </div>
+        <div>
+            <label for="male">male</label>
+            <input type="checkbox" id="male">
+            <label for="female">female</label>
+            <input type="checkbox" id="female">
+            <label for="Trans">Trans</label>
+            <input type="checkbox" id="Trans">
+        
+        </div>
+        <div>
+            <label for="">I am</label>
+            <select name="info" id="info">
+                <option value="student">Student</option>
+                <option value="employee">Employee</option>
+            </select>
+        </div>
+        <div>
+            <label for="">About me</label>
+            <textarea name="about" id="about" cols="50" rows="10" style="vertical-align: top; "></textarea>
+        </div>
+        <div>
+            <!-- <input type="submit" value="submit"> -->
+            <button style="border-radius: 4px solid red ;">
+                <img src="" alt="">submit</button>
+                <button type="reset">Reset</button>
+        </div>
+      </form>
+    </section>
+  </body>
+</html>
